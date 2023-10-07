@@ -1,0 +1,15 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BODY */
+
+body{
+    background: $color-body;
+    background: linear-gradient(0deg, rgba(207,255,179,1) 0%, rgba(233,255,219,1) 100%);
+}

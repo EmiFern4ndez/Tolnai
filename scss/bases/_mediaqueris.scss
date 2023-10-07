@@ -1,0 +1,528 @@
+
+/* MEDIAQUERYS */
+
+/*  1300  */
+
+@media  screen and (max-width: nth($font-size, 1)){
+    /* NAVEGADOR */
+    header{
+        h1{
+            font-size: 38px;
+        }   
+        nav{
+            ul{
+                li{
+                    margin: 20px 40px 0 40px;
+                    font-size: 20px;
+                }
+            }
+        } 
+    }
+    /*          */
+
+    /*  INICIO  */
+    .presentacion{
+        div{
+            flex-direction: column;
+            div{
+                width: 75%;
+            }
+        }
+    }
+    /*      */
+
+    /* HERO */
+    .hero{
+        p{
+            padding: 10px;
+        }
+    }
+    /*       */
+}
+/*       */
+
+/* 1280px */
+
+@media  screen and (max-width: nth($font-size, 2)){
+    /* CONTACTO */
+    .formulario{
+        input{
+            width: 500px;
+        }
+    }
+    /*       */
+}
+/*       */
+
+/* 1080px */
+
+@media  screen and (max-width: nth($font-size, 3)){
+    /* GALERIA */
+    .container2{
+        margin-left: 5%;
+        img{
+            width: 90%;
+            height: 90%;
+        }
+    }
+    /*       */
+}
+/*       */
+
+/* 1024px */
+
+@media  screen and (max-width: nth($font-size, 4)){
+    /* NAVEGADOR */
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 20px 30px 0 30px;
+                }
+            }
+        }
+    }
+    /*          */
+
+    /*   HERO   */
+    .hero {
+        h2{
+            font-size: 70px;
+            padding: 1rem;
+        }
+    }
+
+    .hero2 {
+        h2{
+            font-size: 70px;
+        }
+    }
+
+    .hero3 {
+        h2{
+            font-size: 70px;
+        }
+    }
+
+    .hero4 {
+        h2{
+            font-size: 70px;
+        }
+    }
+    /*          */
+
+    /* TARJETAS DE PRODUCTOS */
+    .tarjeta{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /*          */
+
+    /* CONTACTO */
+    .conteinerContacto{
+        width: 65%;
+    }
+}
+/*       */
+
+/* ELEMNETOS RESPONSIVE */
+.icon__menu{
+    font-size: 27px;
+    height: 100%;
+    display: none;
+}
+
+#label__check{
+    width: 25px;
+    display: none;
+}
+
+#check__menu{
+    display: none;
+}
+/*               */
+
+/* 960px */
+
+@media  screen and (max-width: nth($font-size, 5)){
+    /* NAVEGADOR */
+    header{
+        h1{
+            font-size: 35px;
+        }
+    }
+
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 20px 20px 0 20px;
+                }
+            }
+        }
+    }
+    /*       */
+
+    /* GALERIA */
+    .blank{
+        p{
+            font-size: 27px;
+        }
+    }
+
+    .container2{
+        img{
+            width: 80%;
+            height: 80%;
+        }
+    }
+    /*       */
+}
+/*       */
+
+/* 850px */
+
+@media  screen and (max-width: nth($font-size, 6)){
+    .blank {
+        p{
+            font-size: 23px;
+        }
+    }
+}
+/*       */
+
+/* 812px */
+
+@media  screen and (max-width: nth($font-size, 7)){
+    /* NAVEGADOR */
+    header{
+        h1{
+            font-size: 30px;
+        }
+    }
+
+    header{
+        nav{
+            ul{
+                li{
+                    font-size: 18px;
+                    margin: 17px 20px 0 20px;
+                }
+            }
+        }
+    }
+    /*       */
+
+    /* HERO */
+    .hero{
+        h2{
+            font-size: 55px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    /*       */
+}
+/*       */
+
+/* 768px */
+
+@media  screen and (max-width: nth($font-size, 8)){
+    /* NAVEGADOR */
+    header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        h1{
+            font-size: 30px;
+        }
+        nav ul{
+            text-align: center;
+            flex-direction: column;
+            height: 0px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 100ms ease-in;
+        }
+    }
+
+    .icon__menu{
+        margin-top: 20px;
+    }
+
+    #label__check{
+        display: block;
+    }
+
+    #check__menu:checked ~ nav ul{
+        height: 250px;
+        opacity: 1;
+        visibility: visible;
+    }
+    /*          */
+
+    /*   HERO   */
+    .hero {
+        h2{
+            font-size: 50px;
+            padding: 0.8rem;
+        }
+    }
+
+    .hero {
+        p{
+            font-size: 25px;
+        }
+    }
+
+    .hero2 {
+        h2{
+            font-size: 50px;
+            padding: 0.8rem;
+        }
+    }
+
+    .hero3 {
+        h2{
+            font-size: 50px;
+            padding: 0.8rem;
+        }
+    }
+
+    .hero4 {
+        h2{
+            font-size: 50px;
+            padding: 0.8rem;
+        }
+    }
+    /*          */
+
+    /* INICIO */
+    .presentacion {
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /*        */
+
+    /* GALERIA */
+    .blank{
+        p{
+            width: 90%;
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    .container2{ 
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /*       */
+
+    /* CONTACTO */
+    .conteinerContacto{
+        width: 85%;
+    }
+
+    .formulario {
+        input{
+            width: 400px;
+        }
+    }
+
+    .accordion{
+        width: 500px;
+    }
+    /*          */
+}
+/*       */
+
+/* 650px */
+
+@media  screen and (max-width: nth($font-size, 9)){
+    /* INICIO */
+    .presentacion {
+        div {
+            div{
+                width: 100%;
+            }
+            img{
+                margin-left: 0;
+                width: 400px;
+                height: 450px;
+            }
+        }
+    }
+    /*       */
+
+    /* MASAJES */
+    .tiposMasajes {
+        div{
+            margin-left: 0;
+        }
+    } 
+    /*       */
+}
+/*       */
+
+/* 604px */
+
+@media  screen and (max-width: nth($font-size, 10)){
+    /* HERO */
+    .hero {
+        h2{
+            font-size: 40px;
+        }
+    }
+
+    .hero {
+        p{
+            font-size: 20px;
+        }
+    }
+    /*       */
+
+    /* FOOTER */
+    footer {
+        p{
+            text-align: center;
+        }
+    }
+
+    .redes {
+        i{
+            font-size: 35px;
+        }
+    }
+    /*       */
+
+    /* MASAJES */
+    .tiposMasajes {
+        div{
+            width: 400px;
+            height: 500px;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    /*       */
+
+    /* CONTACTO */
+    .conteinerContacto{
+        width: 95%;
+    }
+
+    .accordion{
+        width: 400px;
+    }
+    /*          */
+}
+/*       */
+
+/* 500px */
+
+@media  screen and (max-width: nth($font-size, 11)){
+    /* HERO */
+    .hero {
+        h2{
+            font-size: 35px;
+        }
+    }
+    /*       */
+
+    /* MASAJES */
+    .tiposMasajes {
+        div{
+            width: 300px;
+            height: 400px;
+            h2{
+                font-size: 23px;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+    /*       */
+
+    /* GALERIA */
+    .container2{
+        margin-left: 6%;
+        img{
+            width: 90%;
+            height: 90%;
+        }
+    }
+    /*       */
+
+    /* CONTACTO */
+    .formulario {
+        input{
+            width: 300px;
+        }
+    }
+
+    .accordion{
+        width: 300px;
+    }
+    /*       */
+}
+/*       */
+
+/* 415px */
+
+@media  screen and (max-width: nth($font-size, 12)){
+    /* HERO */
+    .hero {
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .hero3 {
+        h2{
+            font-size: 33px;
+        }
+    }
+    /*       */
+
+    /* INICIO */
+    .presentacion{
+        div{
+            img{
+                width: 300px;
+                height: 350px;
+            }
+        }
+    }
+    /*       */
+
+    /* PRODUCTO */
+    .tarjeta{
+        height: 400px;
+        width: 250px;
+    }
+    /*       */
+
+    /* GALERIA */
+    .container2{
+        margin-left: 70px;
+        img{
+            width: 80%;
+            height: 80%;
+        }
+    }
+    /*       */
+}
+/*       */
