@@ -426,6 +426,10 @@
     .accordion{
         width: 400px;
     }
+
+    .accordion iframe{
+        width: 300px;
+    }
     /*          */
 }
 /*       */
@@ -475,6 +479,23 @@
 
     .accordion{
         width: 300px;
+    }
+
+    .accordion iframe{
+        height: 150px;
+        width: 200px;
+    }
+
+    .accordion .formasDePago{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accordion .formasDePago img{
+        width: 50%;
+        height: 50%;
     }
     /*       */
 }
